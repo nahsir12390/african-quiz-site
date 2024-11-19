@@ -1,0 +1,171 @@
+       
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-image: url(pexels-ann-h-45017-11082254.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+form{
+    background-color: rgba(240, 212, 155, 0.288);
+    backdrop-filter: blur(10px);
+
+}
+.heading-container{
+    margin-top: 60px;
+    font-family: "Exo 2", sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    color: rgb(226, 151, 59);
+    font-size: 1rem;
+    
+}
+.sign-in-container{
+display: flex;
+position: absolute;
+top: 20px;
+right: 20px;
+}
+
+.sign-in-container button{
+
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.FormValidationSection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#signUpForm{
+    width: 100%;
+max-width: 500px;
+margin: auto;
+text-align: center;
+height: 300px;
+border-radius: 20px;
+padding: 20px;
+}
+form input{
+   padding: 10px;
+   
+   border-radius: 10px;
+   border: none;
+}
+
+
+
+.formContainer{
+    display: flex;
+    padding: 0px 40px;
+justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+
+#signInForm{
+ width: 100%;
+max-width: 500px;
+margin: auto;
+text-align: center;
+height: 300px;
+border-radius:20px ;
+padding: 20px;
+display: none;
+}
+form input{
+   padding: 10px;
+
+   border-radius: 10px;
+   border: none;
+  
+}
+
+
+form button{
+margin:0px  auto;
+    width:100px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    font-size: 1.2em;
+    color: white;
+    padding: 10px;
+}
+form button:hover{
+    cursor: pointer;
+    background-color: hsla(0, 0%, 0%, 0.61);
+}
+
+
+form h2{
+    margin: 20px 0px 0px 0px ;
+    text-align: center;
+    font-size: 2em;
+    text-transform: capitalize;
+    font-family: "Poppins", serif;
+}
+
+
+@media (max-width:500px) {
+    #signUpForm{
+        width:300px;
+        height: 250px;
+        border-radius:20px ;
+        
+    }   
+
+    #signInForm{
+        width:300px;
+        height: 250px;
+        border-radius:20px ;
+        
+    }    
+    form h2{
+        font-size: 1.5em;
+        margin-bottom: 20px;
+
+    }
+form input{
+    padding: 10px 20px;
+    
+}
+
+    form button{
+        font-size: 1em;
+    }
+    .sign-in-container button{
+        padding: 10px 20px;
+        font-size: 0.8em;
+        top: 10px;
+    }
+}
+
+@media (min-width:600px){
+    .heading-container h1{
+        font-size: 3em;
+        margin-bottom: 20px;
+     
+    }
+}
